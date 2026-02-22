@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: #f5f7fb;
+    padding: 30px;
+    color: #2c3e50;
+}
+
+/* ===== HEADER ===== */
+.header {
+    background: #3f6f4e;
+    color: #fdf6e3;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.header-info {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* ===== BUTTON ===== */
+.add-button {
+    background-color: #4CAF50; /* green */
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.add-button:hover {
+    background-color: #45a049;
+}
+
+.add-btn {
+    background: #4caf50;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.add-btn:hover {
+    background: #3e8e41;
+}
+
+/* ===== TABLE ===== */
+.table-container {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #cfe6ff;
+}
+
+th {
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+td {
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+tr:hover {
+    background: #f6f9fc;
+}
+
+/* ===== TAGS ===== */
+.badge {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.good {
+    background: #e3fcef;
+    color: #1b7f46;
+}
+
+.fair {
+    background: #fff4d6;
+    color: #8a6d1d;
+}
+
+/* ===== ACTIONS ===== */
+.action a {
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.edit {
+    color: #3498db;
+}
+
+.delete {
+    color: #e74c3c;
+}
+
+/* ===== FORMS ===== */
+form {
+    max-width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #3f6f4e;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #355c41;
+}
+/* Modal background */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+/* Modal box */
+.modal-content {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Buttons container */
+.modal-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Cancel button */
+.btn-cancel {
+    background: #ccc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Delete button */
+.btn-delete {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background: #c0392b;
+}
